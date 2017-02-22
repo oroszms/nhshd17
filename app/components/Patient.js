@@ -34,7 +34,7 @@ export default class Patient extends Component {
       "id": uuid(),
       "nhs_number": "",
       "first_name": "",
-      "second_name": "",
+      "surname": "",
       "address": "",
       "postcode": "",
       "dob": "",
@@ -71,8 +71,8 @@ export default class Patient extends Component {
               onChange={ this.handleChange.bind(this, 'first_name') }
             /><br />
             <TextField
-              hintText="Second Name"
-              onChange={ this.handleChange.bind(this, 'second_name') }
+              hintText="Surname"
+              onChange={ this.handleChange.bind(this, 'surname') }
             /><br />
             <TextField
               hintText="Address..."

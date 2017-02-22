@@ -7,7 +7,7 @@ type actionType = {
   type: string
 };
 
-export default function save(state: string = '/tmp/', action: actionType) {
+export default function save(state: string = 'P:/FollowApp/test', action: actionType) {
   if (action.type == 'save') {
     state = action.value
   }
